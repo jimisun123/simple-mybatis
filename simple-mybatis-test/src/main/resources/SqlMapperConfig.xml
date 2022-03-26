@@ -1,0 +1,13 @@
+<configuration>
+    <!--数据库配置信息-->
+    <dataSource>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://27.50.142.211:63306/jimisun?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="dsdb@1"></property>
+    </dataSource>
+
+    <!--sql配置文件-->
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>
