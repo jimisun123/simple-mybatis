@@ -1,5 +1,5 @@
 # 简单的Mybatis
-> 这是根据mybatis运营原理实现到一个简易型mybatis框架
+> 这是根据mybatis运行原理实现到一个简易型mybatis框架
 
 * 已实现传统使用方式
   * 传统dao开发存在的问题
